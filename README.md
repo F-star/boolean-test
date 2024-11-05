@@ -9,7 +9,7 @@ pnpm run dev
 
 support library:
 
-1. [CanvasKit / SKia](https://skia.org/docs/user/modules/canvaskit/)
+1. [CanvasKit / Skia](https://skia.org/docs/user/modules/canvaskit/)
 
 todo:
 
