@@ -6,3 +6,5 @@ npm install pnpm
 pnpm install
 pnpm run dev
 ```
+
+![](./snapshot.png)
