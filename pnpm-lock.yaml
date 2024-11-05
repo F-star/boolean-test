@@ -18,6 +18,9 @@ importers:
         specifier: ^8.5.2
         version: 8.5.2
     devDependencies:
+      '@types/lodash':
+        specifier: ^4.17.13
+        version: 4.17.13
       typescript:
         specifier: ~5.6.2
         version: 5.6.3
@@ -276,6 +279,9 @@ packages:
   '@types/estree@1.0.6':
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
 
+  '@types/lodash@4.17.13':
+    resolution: {integrity: sha512-lfx+dftrEZcdBPczf9d0Qv0x+j/rfNCMuC6OcfXmO8gkfeNAY88PgKUbvG56whcN23gc27yenwF6oJZXGFpYxg==}
+
   '@webgpu/types@0.1.21':
     resolution: {integrity: sha512-pUrWq3V5PiSGFLeLxoGqReTZmiiXwY3jRkIG5sLLKjyqNxrwm/04b4nw7LSmGWJcKk59XOM/YRTUwOzo4MMlow==}
 
@@ -506,6 +512,8 @@ snapshots:
   '@types/earcut@2.1.4': {}
 
   '@types/estree@1.0.6': {}
+
+  '@types/lodash@4.17.13': {}
 
   '@webgpu/types@0.1.21': {}
 
