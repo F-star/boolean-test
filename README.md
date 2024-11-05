@@ -1,6 +1,8 @@
 
 # Boolean Library Test
 
+https://f-star.github.io/boolean-test/
+
 ```sh
 npm install pnpm
 pnpm install

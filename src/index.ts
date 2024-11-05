@@ -2,7 +2,10 @@ import { Matrix } from 'pixi.js';
 import { canvaskitDraw } from './canvaskit-draw';
 import { testData } from './data';
 import { debounce, throttle } from 'lodash';
-import InitCanvasKit from 'canvaskit-wasm';
+import InitCanvasKit from "canvaskit-wasm/bin/canvaskit.js";
+// @ts-ignore
+import CanvasKitWasm from "canvaskit-wasm/bin/canvaskit.wasm?url";
+
 
 // const fill: number[] = [0, 0.4, 1, 0.5]; // rgba
 // const stroke: number[] = [0, 0, 0, 1];
@@ -17,7 +20,7 @@ const main = async () => {
   canvas.height = window.innerHeight;
 
   const CanvasKit = await InitCanvasKit({
-    locateFile: (file) => '/node_modules/canvaskit-wasm/bin/' + file,
+    locateFile: () => CanvasKitWasm,
   });
 
   let surface = CanvasKit.MakeWebGLCanvasSurface(canvas)!;
